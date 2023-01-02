@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chatty Developers">
+		<meta name="keyword" content="A sticker hub to get your favourite stickers, gifs, reels, vidoes, audios and anything trending"/>
+		<meta name="keyword" content="Chatty, a sticker hub, chatty, biggest stickerhub, next big thing"/>
+    
+    <title>Chatty</title>
+
+    <link rel="icon" href="assets/herologo_1.png"/>
+    <link rel="stylesheet" href="lib/bootstrap.css"/>
+    <link rel="stylesheet" href="lib/msgConfig.css"/>
+    <link rel="stylesheet" href="includes/styles/customStyles.css"/>
+    
+    <script src="lib/bootstrap.js"></script>
+    <script src="lib/sweetAlert2.js"></script>
+    <script src="includes/scripts/index.js"></script>
+
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark " style="background-color: orangered;">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><img id="MDB-logo"
+          src=""
+          draggable="false" height="30" />chatty</a>
+  
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-3">
+          <li class="nav-item">
+            <a class="nav-link active d-flex align-items-center" aria-current="page" href="#"><i
+                class="fas fa-bars pe-2"></i>Menu</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+  
+        <form class="d-flex align-items-center w-100 form-search">
+          <div class="input-group">
+            <button class="btn btn-light dropdown-toggle shadow-0" type="button" data-mdb-toggle="dropdown"
+              aria-expanded="false" style="padding-bottom: 0.4rem;">
+              All
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark fa-ul">
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-search"></i></span>All</a>
+              </li>
+               <!-- ROP DOWN HERE -->
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-search-plus"></i></span>Advanced
+                  search<i class="fas fa-chevron-right ps-2"></i></a>
+              </li>
+            </ul>
+            <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+          </div>
+          <a href="#!" class="text-white"><i class="fas fa-search ps-3"></i></a>
+        </form>
+  
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-3" href="#!">
+              <img src="assets/add.png" alt="" width="40px" class="align-items-center">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+
+
+<!-- NEW HERO SECTION -->
+
+ <!-- Start hero Area -->
+ <div class="hero-area">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="hero-img">
+                    <img class="banner-img-3" src="assetS/Imaginary friend-amico (1).svg" alt="image">
+                    <!-- shape images -->
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-content">
+                    <span>Collect and have fun</span>
+                    <h1>Home of Trending Gif and Stickers</h1>
+                    <p>a chat asset hub with alot of offers.
+                         join the community.  as well as uploading your own chat assets
+
+                  Add your own favourite sticker, gifs and even put them up for free or monetize it.</p>
+                    <a class="hero-btn" href="#">Get Started</a>
+                    <a class="hero-btn-2" href="#">Learn More</a>
+                    <!-- shape images -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- shape images -->
+</div>
+<!-- End hero Area -->
+
+<!-- new section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    window.addEventListener('scroll', function() {
+         
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+         document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+    });
+  }); 
+  // DOMContentLoaded  end
+</script>
+
+
+</body>
+</html>
