@@ -26,6 +26,7 @@ a{
     background-image: url(../../assets/Imaginary\ friend-amico\ \(1\).svg);
     background-position: center;
     background-size: cover;
+    border-right: 1px solid rgb(223, 206, 206);
 
 }
 
@@ -82,6 +83,11 @@ img{
     font-weight: 500;
 }
 
+.form-side .logo{
+    display: none;
+}
+
+
 .form {
     width: 600px;
     height: 400px;
@@ -105,9 +111,47 @@ img{
 
 }
 
-@media (min-width:320px) {
-   
-}
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .access-content{
+        display: none;
+    }
+
+    .log{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .form-side{
+        width: 100%;
+        position: relative;
+    }
+
+    .form{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .form-side .container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-side .logo{
+        display: block;
+        width: 100%;
+    }
+
+    .form-side .login-btn{
+        display: none;
+    }
+    
+    .form-side .signup-btn{
+        display: none;
+    }
+    
+    }
 
 
 
