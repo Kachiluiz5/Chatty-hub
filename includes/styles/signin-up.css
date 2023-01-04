@@ -22,7 +22,10 @@ a{
 .access-content{
     width: 40%;
     height: 100vh;
-    background-color: var(--brand-color-orange-light);
+    /* background-color: var(--brand-color-orange-light); */
+    background-image: url(../../assets/Imaginary\ friend-amico\ \(1\).svg);
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -46,6 +49,7 @@ img{
     width: 60%;
     padding-left: 30px;
     padding-right: 30px;
+    background: whitesmoke;
 }
 
 
@@ -99,6 +103,10 @@ img{
     background-color: var(--brand-color-orange-light);
     transition: var(--trans);
 
+}
+
+@media (min-width:320px) {
+   
 }
 
 
