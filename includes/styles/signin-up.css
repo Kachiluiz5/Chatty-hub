@@ -36,14 +36,28 @@ img{
     /* background-color: aqua; */
 }
 
+
 .form-side .container{
     width: 100%;
     height: 60px;
 }
 
+.form-side .login-btn{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-side .signup-btn{
+    padding: 13px 35px;
+    border-radius: 6px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 
 .form {
-    width: 400px;
+    width: 600px;
     height: 400px;
     margin: auto;
     margin-top: 200px;
@@ -55,6 +69,8 @@ img{
     border-radius: 6px;
     background-color: orange;
     border: none;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
